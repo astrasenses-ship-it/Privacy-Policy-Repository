@@ -90,12 +90,12 @@
 <div class="container">
     <h1>Privacy Policy</h1>
     <p><strong>Last Updated: August 5, 2026</strong></p>
-    <p>This privacy policy governs your use of the software application <strong>ASTRA IoT Hub</strong> ("Application") for mobile devices. The Application is a smart data logging utility that fetches feeds from ThingSpeak and monitors MQTT brokers to display real-time sensor charts and threshold alert notifications.</p>
+    <p>This privacy policy governs your use of the software application <strong>ASTRA IoT Hub</strong> ("Application") for mobile devices. The Application is a smart data logging utility that fetches feeds from the cloud and monitors MQTT brokers to display real-time sensor charts and threshold alert notifications.</p>
     <div class="highlight-box">
         <p>Short Version: Your data belongs to you. We do not collect, store, or share your credentials, keys, or logs on any external server. All configuration details remain strictly encrypted on your own device.</p>
     </div>
     <h2>1. Information We Collect and Process</h2>
-    <p>The Application is designed to communicate directly with your own configured servers (ThingSpeak API and MQTT Broker). We do not run any central servers, and we have no access to the configurations or logs you enter into the Application.</p>
+    <p>The Application is designed to communicate directly with your own configured servers (Cloud API and MQTT Broker). We do not run any central servers, and we have no access to the configurations or logs you enter into the Application.</p>
     
     <h3>User-Provided Information</h3>
     <p>When you set up the Application, you may input the following credentials:</p>
@@ -107,7 +107,7 @@
     <h2>2. Data Transmission and Security</h2>
     <p>The Application only transmits data directly from your mobile device to your specified endpoints:</p>
     <ul>
-        <li>HTTP/HTTPS requests are sent directly to the ThingSpeak API endpoints (defaults to <code>https://api.thingspeak.com</code>).</li>
+        <li>HTTP/HTTPS requests are sent directly to the Cloud API endpoints.</li>
         <li>MQTT socket connections are established directly to your configured MQTT broker using SSL/TLS encryption (e.g., via <code>ssl://</code> endpoints) to protect your communication from interception.</li>
     </ul>
     <p>No analytics trackers, advertising SDKs, or developer-owned logging APIs are bundled with this Application.</p>
